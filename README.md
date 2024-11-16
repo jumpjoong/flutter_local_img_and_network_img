@@ -1,16 +1,13 @@
-# image_sample
+# local_img_and_network_img
 
-A new Flutter project.
+로컬 이미지 불러오기 및 네트워크 통신을 이용해서 이미지 불러오기
 
-## Getting Started
+## 설명
 
-This project is a starting point for a Flutter application.
+로컬 이미지를 부르기 위해 pubspec.yaml 파일에 assets에 폴더 경로 및 파일 경로를 지정해준다.
+그 후 Image.asset(폴더 경로에 있는 이미지 경로) 를 적어주면 로컬에 있는 이미지를 불러올 수 있다.
 
-A few resources to get you started if this is your first Flutter project:
+Image.network는 유요한 이미지 주소면 된다.
+Image.network(유효한 이미지 주소) 라고 적으면 된다.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
